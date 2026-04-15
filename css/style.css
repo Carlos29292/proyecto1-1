@@ -80,12 +80,28 @@ body {
   background-color: white;
 }
 
+/* BARRA SUPERIOR */
 .top-bar {
   background-color: black;
-  padding: 20px;
-  text-align: center;
+  padding: 25px 40px; /* más grande */
 }
 
+/* CONTENEDOR INTERNO */
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* LOGO */
+.logo {
+  width: 50px; /* ajusta según tu logo */
+}
+
+/* TÍTULO */
 .top-bar h1 {
   color: white;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  font-weight: 500;
 }
