@@ -80,34 +80,51 @@ body {
   background-color: white;
 }
 
-/* BARRA NEGRA MÁS GRANDE */
+/* BARRA */
 .top-bar {
   background-color: black;
-  padding: 30px 60px; /* más gruesa */
+  padding: 25px 50px;
 }
 
-/* CONTENEDOR */
+/* CONTENEDOR PRINCIPAL */
 .nav-container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
-/* AGRUPA LOGO + TEXTO */
+/* LOGO + TEXTO */
 .brand {
   display: flex;
   align-items: center;
-  gap: 15px; /* espacio entre logo y texto */
+  gap: 15px;
 }
 
-/* LOGO MÁS GRANDE */
 .logo {
   width: 70px;
 }
 
-/* TEXTO GYM GODS */
 .brand h1 {
   color: white;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   letter-spacing: 3px;
-  font-weight: 600;
+}
+
+/* MENÚ DERECHA */
+.menu {
+  display: flex;
+  gap: 25px;
+}
+
+/* LINKS */
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: 0.3s;
+}
+
+/* HOVER (efecto pro) */
+.menu a:hover {
+  opacity: 0.7;
 }
